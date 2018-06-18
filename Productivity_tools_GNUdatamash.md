@@ -35,14 +35,21 @@ Open the terminal and in the command-line print numbers from 1 to 10 using **seq
  
 ```
 #Sum values from the sequence 1..10 
-
 seq 10 | datamash sum 1  
 
-#sum values from the sequence 1..10 and calculate the mean 
-
+#Sum values from the sequence 1..10 and calculate the mean 
 seq 10 | datamash sum 1 mean 1 
 
+#Minimum value of the sequence -5..5 in increments of 1  
+seq -5 1 5 | datamash min 1
+
+#Maximum value of the sequence -5..5 in increments of 1
+seq -5 1 5 | datamash max 1
+
 ```
+Easy! :+1:
+
+
 
 
 
