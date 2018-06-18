@@ -1,4 +1,4 @@
-# Productivity Tools - Section II :clock9:
+# Productivity Tools - Section II :clock9::light_rail::chart_with_upwards_trend:
 
 ## GNU Datamash Tutorial, July 2018
 
