@@ -30,7 +30,7 @@ conda install datamash
 ## Examples  :octocat::speech_balloon:
 
 
-Open the terminal and in the command-line print numbers from 1 to 10 using **seq 10**, then send the result into datamash using pipe (|) and sum the values from the first and only field, then calculate the mean:
+Open the terminal and in the command-line print numbers from 1 to 10 using **_seq 10_**, then send the result into datamash using pipe (|) and sum the values from the first and only field, then calculate the mean:
 
  
 ```
