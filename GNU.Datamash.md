@@ -1,4 +1,4 @@
-#Installing GNU datamash:
+Installing GNU datamash:
 
 **Debian ( package):**
 sudo apt-get install datamash
