@@ -20,9 +20,9 @@ brew install datamash
 
 ## Examples 
 
-In the command line create data with 10 values using _seq_ 10
+In the command line create data with 10 values using _seq 10_ 
 
-´´´
+```
 seq 10 | datamash sum 1
+```
 
-´´´
