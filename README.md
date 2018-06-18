@@ -13,7 +13,7 @@ We already had a fantastic course of **tidyverse/dplyr** by Stefan Wyder at the 
 
 *Next:*
 
-- Productivity tools: July 2018
+- **Productivity tools**: July 2018
 
 A dynamic course where we will all share our day-to-day productivity tools. From a classic notebook to a mobile app.
 
