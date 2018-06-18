@@ -9,7 +9,7 @@ Welcome to URPP tutorials!
 
 Here you will find the **UZH URPP Bioinformatics Program for the year 2018**.
 
-We already had a fantastic course of **tidyverse/dyplr** by Stefan Wyder at the beginning of June, please check https://github.com/swyder/dplyr_tutorial for more information. 
+We already had a fantastic course of **tidyverse/dplyr** by Stefan Wyder at the beginning of June, please check https://github.com/swyder/dplyr_tutorial for more information. 
 
 Next:
 
