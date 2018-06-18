@@ -27,13 +27,13 @@ brew install datamash
 
 Open the terminal and in the command-line print numbers from 1 to 10 using **seq** 10, then send the result into datamash using pipe (|) and sum the values from the first and only field:
 
- :octocat:
+ :speech_balloon::octocat:
+ 
 ```
-#Sum values from the sequence 1..10
-
+#Sum values from the sequence 1..10 
 seq 10 | datamash sum 1  
 
-#sum values from the sequence 1..10 and calculate the mean
+#sum values from the sequence 1..10 and calculate the mean 
 
 seq 10 | datamash sum 1 mean 1 
 
