@@ -26,11 +26,26 @@ conda install datamash
 
 - For other systems check: https://www.gnu.org/software/datamash/download/
 
+## Datamash functions
+
+Sum values, calculate their mean, median, standard deviation and more simply using:
+
+```
+datamash [function] [column]
+```
+
+See all the possible functions by writing in the command line:
+
+datamash --help (brief overview)
+man datamash (extended manual)
+
 
 ## Examples  :octocat::speech_balloon:
 
 
-Open the terminal and in the command-line print numbers from 1 to 10 using **_seq 10_**, then send the result into datamash using pipe (|) and sum the values from the first and only field, then calculate the mean:
+Open the terminal and in the command-line print numbers from 1 to 10 using **_seq 10_**, then send the result into datamash using pipe (|) and sum the values from the first and only field, then calculate the mean. 
+
+Last, make another sequence with positive and negative values and determine the min and max value of the list.
 
  
 ```
