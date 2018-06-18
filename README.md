@@ -2,10 +2,10 @@
 # URPP tutorials 2018 
 
 
-### UZH Bioinformatic Courses 2018 ~ URPP "_Evolution in action_".
+### UZH Bioinformatic Courses 2018 ~ URPP "_Evolution in action_"
 
 
-Welcome to URPP tutorials!
+Welcome to URPP tutorials! :octocat:
 
 Here you will find the **UZH URPP Bioinformatics Program for the year 2018**.
 
