@@ -28,16 +28,17 @@ conda install datamash
 
 ## Datamash functions
 
-Sum values, calculate their mean, median, standard deviation and more simply using:
+Sum values, calculate their mean, median, standard deviation and more by simply using the following command:
 
 ```
-datamash [function] [column]
+datamash [FUNCTION] [FIELD]
 ```
 
 See all the possible functions by writing in the command line:
 
-datamash --help (brief overview)
-man datamash (extended manual)
+- datamash --help (brief overview)
+
+- man datamash (extended manual)
 
 
 ## Examples  :octocat::speech_balloon:
