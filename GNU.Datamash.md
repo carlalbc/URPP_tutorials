@@ -1,4 +1,6 @@
-# Installing GNU datamash:
+# Datamash tutorial - July 2018
+
+## Installing GNU datamash
 
 **Debian ( package):**
 
