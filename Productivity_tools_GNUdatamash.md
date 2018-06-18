@@ -4,6 +4,7 @@
 
 GNU datamash is a command-line program which performs basic numeric, textual and statistical operations (sum, min, max, stdev, etc.) on input text files.
 
+
 ## Installing GNU datamash
 
 - **Debian (package):**
@@ -20,12 +21,18 @@ brew install datamash
 
 - For other systems check: https://www.gnu.org/software/datamash/download/
 
+
 ## Examples 
 
 
-Open the terminal and in the command-line print numbers from 1 to 10 using **seq** 10, then send the result into datamash using pipe (|) and sum the values:
+Open the terminal and in the command-line print numbers from 1 to 10 using **seq** 10, then send the result into datamash using pipe (|) and sum the values from the first and only field:
 
 ```
-seq 10 | datamash sum 1
+seq 10 | datamash sum 1  #sum values from the sequence 1..10
+
+seq 10 | datamash sum 1 mean 1  #sum values from the sequence 1..10 and calculate the mean
+
 ```
+
+
 
