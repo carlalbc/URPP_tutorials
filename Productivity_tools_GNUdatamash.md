@@ -19,13 +19,18 @@ sudo apt install datamash
 
 brew install datamash
 
+- **Bioconda install:**
+
+conda install datamash
+
+
 - For other systems check: https://www.gnu.org/software/datamash/download/
 
 
 ## Examples  :octocat::speech_balloon:
 
 
-Open the terminal and in the command-line print numbers from 1 to 10 using **seq** 10, then send the result into datamash using pipe (|) and sum the values from the first and only field:
+Open the terminal and in the command-line print numbers from 1 to 10 using **seq** 10, then send the result into datamash using pipe (|) and sum the values from the first and only field, then calculate the mean:
 
  
 ```
@@ -38,6 +43,8 @@ seq 10 | datamash sum 1
 seq 10 | datamash sum 1 mean 1 
 
 ```
+
+
 
 
 
