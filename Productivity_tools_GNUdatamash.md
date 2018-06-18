@@ -34,10 +34,10 @@ seq 10 | datamash sum 1
 
 #sum values from the sequence 1..10 and calculate the mean
 
-seq 10 | datamash sum 1 mean 1  #sum values from the sequence 1..10 and calculate the mean
+seq 10 | datamash sum 1 mean 1 
 
 ```
+:+1::+1::+1:
 
-:+1:
 
 
