@@ -21,7 +21,7 @@ We will show you how to improve your efficiency using _bioawk_, _GNU datamash_ a
 
 - **Section I**: [Bioawk](https://github.com/swyder/): Modification of awk to work with many bioinformatic format files such as BED, SAM, etc.
 
-- **Section II**: [GNU Datamash](https://github.com/carlalbc/URPP_tutorials/blob/master/Productivity_tools_GNUdatamash.md): Command-line program to perform basic stats, calculations and table modifications using text files as input.
+- **Section II**: [GNU Datamash](https://github.com/carlalbc/URPP_tutorials/blob/master/Productivity_tools_GNUdatamash.md): Command-line program to perform table modifications, calculations and basic stats using text files as an input.
 
 
 
