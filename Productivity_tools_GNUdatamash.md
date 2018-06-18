@@ -1,5 +1,5 @@
-# Productivity Tools
-## Section II: GNU Datamash Tutorial, July 2018
+# Productivity Tools - Section II
+## GNU Datamash Tutorial, July 2018
 
 GNU datamash is a command-line program which performs basic numeric, textual and statistical operations (sum, min, max, stdev, etc.) on input text files.
 
