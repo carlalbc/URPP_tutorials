@@ -23,7 +23,7 @@ brew install datamash
 ## Examples 
 
 
-Open the terminal and in the command-line create data with 10 values using _seq 10_, pipe the result into datamash and sum the values:
+Open the terminal and in the command-line print numbers from 1 to 10 using **seq** 10, then send the result into datamash using pipe (|) and sum the values:
 
 ```
 seq 10 | datamash sum 1
