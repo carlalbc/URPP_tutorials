@@ -11,9 +11,9 @@ Here you will find the **UZH URPP Bioinformatics Program for the year 2018**.
 
 We already had a fantastic course of **tidyverse/dplyr** by Stefan Wyder at the beginning of June, please check his [github page](https://github.com/swyder/dplyr_tutorial) for more information. 
 
-***Next courses:***
+*Next courses:*
 
-- **Productivity tools**: July 2018 
+I) **Productivity tools**: July 2018 
 
 A dynamic course where we will all share our day-to-day productivity tools. From a classic notebook to a mobile app, going through command-line tricks and programming work-arounds.
 
@@ -24,4 +24,5 @@ We will show you how to improve your efficiency using _bioawk_, _GNU datamash_ a
 - **Section II**: [GNU Datamash](https://github.com/carlalbc/URPP_tutorials/blob/master/Productivity_tools_GNUdatamash.md): Command-line program to perform with basic stats calculations using text files as input.
 
 
-- **_To be determined_**. We are always open to suggestions!
+
+II) **_To be determined_**. We are always open to suggestions!
