@@ -23,7 +23,7 @@ brew install datamash
 conda install datamash
 
 
-- For other systems check: https://www.gnu.org/software/datamash/download/
+- For other systems check [here](https://www.gnu.org/software/datamash/download/).
 
 ## Datamash functions
 
