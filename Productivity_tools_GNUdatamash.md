@@ -64,6 +64,18 @@ seq -5 1 5 | datamash max 1
 ```
 Easy! :+1:
 
+Now that we know how to call it let's do some exercises
+
+## Exercises
+
+- E01. Calculate blablablsbflasblfd
+- E02. Calculate alsdfkaslkdfj
+- E03. Calculate alsdjfalskfdjasf
+
+## Combination of Datamash and Python
+
+There are many ways of transforming data to analyze it. Using *datamash* it is possible to quickly pass processed data onto a script and do more sophisticated analyses or plotting it directly with Python.
+
 
 
 
