@@ -74,7 +74,7 @@ Now that we know how to call it let's do some exercises
 
 ## Combination of Datamash and Python
 
-There are many ways of transforming data to analyze it. Using *datamash* it is possible to quickly pass processed data onto a script and do more sophisticated analyses or plotting it directly with Python.
+There are many ways of transforming data to analyze it. Using *datamash* it is possible to quickly process data and use it as input into for a Python script performing more sophisticated analyses and/or directly plotting it.
 
 
 
