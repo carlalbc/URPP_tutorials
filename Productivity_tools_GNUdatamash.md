@@ -72,11 +72,11 @@ Now that we know how to call it let's do some exercises.
 
 1) Download the classic Iris flower data set (A.K.A Fisher's Iris data set), the filename is **iris.csv** file (hint: use **wget**)
 
-2) Inspect the **iris.csv** file using *head* and determine how many lines and fields it has (hint: you can use *datamash check*)
+2) Inspect the **iris.csv** file using *head* and determine how many lines and fields it has (hint: you can use **datamash check**)
 
 3) What species of *Iris* has on average the **longest** petals? (hint: the column for petals is the **3rd field**)
 
-4) Which species has more variability in petals size? What about sepals? (hint: use pvar)
+4) Which species has more variability in petals size? What about sepals? (hint: you can use **pvar**)
 
 You can do a lot of things! :octocat:
 
@@ -95,15 +95,15 @@ Datamash allows you to quickly count how many transcripts per gene there are, wh
 We will next work with a GTF file, the format is as follows (extracted from Ensembl):
 
 ---------------------
-1. seqname - name of the chromosome or scaffold; chromosome names can be given with or without the 'chr' prefix. Important note: the seqname must be one used within Ensembl, i.e. a standard chromosome name or an Ensembl identifier such as a scaffold ID, without any additional content such as species or assembly. See the example GFF output below.
-2. source - name of the program that generated this feature, or the data source (database or project name)
-3. feature - feature type name, e.g. Gene, Variation, Similarity
-4.  start - Start position of the feature, with sequence numbering starting at 1.
-5.  end - End position of the feature, with sequence numbering starting at 1.
-6.  score - A floating point value.
-7. strand - defined as + (forward) or - (reverse).
-8. frame - One of '0', '1' or '2'. '0' indicates that the first base of the feature is the first base of a codon, '1' that the second base is the first base of a codon, and so on..
-9. attribute - A semicolon-separated list of tag-value pairs, providing additional information about each feature.
+1. **seqname** - name of the chromosome or scaffold; chromosome names can be given with or without the 'chr' prefix. Important note: the seqname must be one used within Ensembl, i.e. a standard chromosome name or an Ensembl identifier such as a scaffold ID, without any additional content such as species or assembly. See the example GFF output below.
+2. **source** - name of the program that generated this feature, or the data source (database or project name)
+3. **feature** - feature type name, e.g. Gene, Variation, Similarity
+4.  **start** - Start position of the feature, with sequence numbering starting at 1.
+5.  **end** - End position of the feature, with sequence numbering starting at 1.
+6.  **score** - A floating point value.
+7. **strand** - defined as + (forward) or - (reverse).
+8. **frame** - One of '0', '1' or '2'. '0' indicates that the first base of the feature is the first base of a codon, '1' that the second base is the first base of a codon, and so on..
+9. **attribute** - A semicolon-separated list of tag-value pairs, providing additional information about each feature.
 ---------------------
 
 With that in mind let's start practicing! :octocat:
@@ -113,7 +113,7 @@ With that in mind let's start practicing! :octocat:
 ```
 wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_28/gencode.v28.annotation.gtf.gz
 ```
-2) 
+2) Count the number of transcripts per gene
 
 
 
