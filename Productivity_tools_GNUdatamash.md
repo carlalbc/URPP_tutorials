@@ -68,19 +68,19 @@ Now that we know how to call it let's do some exercises.
 
 ## Exercises Part I: Iris dataset
 
-**NOTE:** It is important to have the latest version of Datamash (1.3)
+**NOTE:** It is important to have the latest version of Datamash (1.3) installed.
 
 1) Download the classic Iris flower data set (A.K.A Fisher's Iris data set), the filename is **iris.csv** file (hint: use **wget**)
 
 2) Inspect the **iris.csv** file using *head* and determine how many lines and fields it has (hint: you can use *datamash check*)
 
-3) What species of Iris has on average the longest petals? (hint: the column for petals is the **3rd field**)
+3) What species of *Iris* has on average the **longest** petals? (hint: the column for petals is the **3rd field**)
 
-4) Which species has more variability in petals size? What about sepals?
+4) Which species has more variability in petals size? What about sepals? (hint: use pvar)
 
 You can do a lot of things! :octocat:
 
-For example, if you want to operate in all columns instead of each one independently, you could combine awk with datamash like it follows:
+For example, if you want to operate in all columns instead of each one independently, you could combine *awk* with *datamash* like it follows:
 
 
 ```
