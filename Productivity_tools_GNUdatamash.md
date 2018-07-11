@@ -71,8 +71,11 @@ Now that we know how to call it let's do some exercises.
 **NOTE:** It is important to have the latest version of Datamash (1.3)
 
 1) Download the classic Iris flower data set (A.K.A Fisher's Iris data set), the filename is **iris.csv** file (hint: use **wget**)
-2) Inspect the file using *head* and determine how many lines and fields it has (hint: you can use *datamash check*) 
+
+2) Inspect the **iris.csv** file using *head* and determine how many lines and fields it has (hint: you can use *datamash check*)
+
 3) What species of Iris has on average the longest petals? (hint: the column for petals is the **3rd field**)
+
 4) Which species has more variability in petals size? What about sepals?
 
 You can do a lot of things! :octocat:
