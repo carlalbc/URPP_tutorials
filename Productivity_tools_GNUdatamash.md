@@ -84,13 +84,42 @@ For example, if you want to operate in all columns instead of each one independe
 
 
 ```
-cols=$( awk '{print NF; exit}' foo); cat foo | datamash -t\  sum 1-$cols
+cols=$( awk '{print NF; exit}' foo); cat iris.csv | datamash -t\  sum 1-$cols
 
 ```
 
 ## Exercises Part II: Genes
 
-There are many ways of transforming data to analyze it. Using *datamash* it is possible to quickly process data and use it as input into for a Python script performing more sophisticated analyses and/or directly plotting it.
+Datamash allows you to quickly count how many transcripts per gene there are, which gene has more transcripts, number of exons, etc. 
+
+We will next work with a GTF file, the format is as follows (extracted from Ensembl):
+
+---------------------
+1. seqname - name of the chromosome or scaffold; chromosome names can be given with or without the 'chr' prefix. Important note: the seqname must be one used within Ensembl, i.e. a standard chromosome name or an Ensembl identifier such as a scaffold ID, without any additional content such as species or assembly. See the example GFF output below.
+2. source - name of the program that generated this feature, or the data source (database or project name)
+3. feature - feature type name, e.g. Gene, Variation, Similarity
+4.  start - Start position of the feature, with sequence numbering starting at 1.
+5.  end - End position of the feature, with sequence numbering starting at 1.
+6.  score - A floating point value.
+7. strand - defined as + (forward) or - (reverse).
+8. frame - One of '0', '1' or '2'. '0' indicates that the first base of the feature is the first base of a codon, '1' that the second base is the first base of a codon, and so on..
+9. attribute - A semicolon-separated list of tag-value pairs, providing additional information about each feature.
+---------------------
+
+With that in mind let's start practicing! :octocat:
+
+1) Download the GTF file from Gencode latest version
+
+```
+wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_28/gencode.v28.annotation.gtf.gz
+```
+2) 
+
+
+
+
+
+There are many ways of transforming data to analyze it. Using *datamash* it is possible to quickly process data and use it as input into for other programming languages performing more sophisticated analyses and/or visualization by directly plotting it.
 
 
 
