@@ -79,8 +79,11 @@ You can do a lot of things! :octocat:
 
 For example, if you want to operate in all columns instead of each one independently, you could combine awk with datamash like it follows:
 
+
+```
 cols=$( awk '{print NF; exit}' foo); cat foo | datamash -t\  sum 1-$cols
 
+```
 
 ## Exercises Part II: Genes
 
