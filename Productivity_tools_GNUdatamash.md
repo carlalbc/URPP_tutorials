@@ -62,17 +62,27 @@ seq -5 1 5 | datamash min 1
 seq -5 1 5 | datamash max 1
 
 ```
-Easy! :+1:
+Easy! :octocat:
 
-Now that we know how to call it let's do some exercises
+Now that we know how to call it let's do some exercises.
 
-## Exercises
+## Exercises Part I: Iris dataset
 
-- E01. Calculate blablablsbflasblfd
-- E02. Calculate alsdfkaslkdfj
-- E03. Calculate alsdjfalskfdjasf
+**NOTE:** It is important to have the latest version of Datamash (1.3)
 
-## Combination of Datamash and Python
+1) Download the classic Iris flower data set (A.K.A Fisher's Iris data set), the filename is **iris.csv** file (hint: use wget)
+2) Inspect the file using head and determine how many lines and fields it has (hint: you can use datamash check) 
+3) What species of Iris has on average the longest petals? (hint: the column for petals is the 3rd field)
+4) Which species has more variability in petals size? What about sepals?
+
+You can do a lot of things! :octocat:
+
+For example, if you want to operate in all columns instead of each one independently, you could combine awk with datamash like it follows:
+
+cols=$( awk '{print NF; exit}' foo); cat foo | datamash -t\  sum 1-$cols
+
+
+## Exercises Part II: Genes
 
 There are many ways of transforming data to analyze it. Using *datamash* it is possible to quickly process data and use it as input into for a Python script performing more sophisticated analyses and/or directly plotting it.
 
