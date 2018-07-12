@@ -70,7 +70,7 @@ Now that we know how to call it let's do some exercises.
 
 **NOTE:** It is important to have the latest version of Datamash (1.3) installed.
 
-1) Download the classic Iris flower data set (A.K.A Fisher's Iris data set), the filename is **iris.csv** file (hint: use **wget**)
+1) Download the classic Iris flower data set (A.K.A Fisher's Iris data set), the filename is **iris.csv** file.
 
 2) Inspect the **iris.csv** file using *head* and determine how many lines and fields it has (hint: you can use **datamash check**)
 
@@ -79,14 +79,6 @@ Now that we know how to call it let's do some exercises.
 4) Which species has more variability in petals size? What about sepals? (hint: you can use **pvar**)
 
 You can do a lot of things! :octocat:
-
-For example, if you want to operate in all columns instead of each one independently, you could combine *awk* with *datamash* like it follows:
-
-
-```
-cols=$( awk '{print NF; exit}' foo); cat iris.csv | datamash -t\  sum 1-$cols
-
-```
 
 ## Exercises Part II: Genes
 
@@ -108,18 +100,18 @@ We will next work with a GTF file, the format is as follows (extracted from Ense
 
 With that in mind let's start practicing! :octocat:
 
-1) Download the GTF file from Gencode latest version
+1) Download the transcripts GTF file from Gencode latest version and unzip it (it is in the main folder)
 
+Or download this file but it requires some tinkering before using:
 ```
 wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_28/gencode.v28.annotation.gtf.gz
 ```
-2) Count the number of transcripts per gene
+2) Count the number of transcripts per gene using **--groupby** together with **--count** (hint: genes are in column #9 and transcripts in column #10). How many transcripts the gene with the Ensembl ID: **ENSG00000257198.6** has? (hint use **grep**)
+
+3) Can you tell which are the Ensembl IDs for the transcripts of gene **ENSG00000257198.6**? (hint use **--collapse**) 
 
 
-
-
-
-There are many ways of transforming data to analyze it. Using *datamash* it is possible to quickly process data and use it as input into for other programming languages performing more sophisticated analyses and/or visualization by directly plotting it.
+Overall, there are many ways of transforming data to analyze it. Using *datamash* it is possible to quickly process data and use it as input into for other programming languages performing more sophisticated analyses and/or visualization by directly plotting it :octocat:
 
 
 
