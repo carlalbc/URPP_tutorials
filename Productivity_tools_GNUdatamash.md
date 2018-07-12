@@ -106,9 +106,9 @@ Or download this file but it requires some tinkering before using:
 ```
 wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_28/gencode.v28.annotation.gtf.gz
 ```
-2) Count the number of transcripts per gene using **--groupby** together with **--count** (hint: genes are in column #9 and transcripts in column #10). How many transcripts the gene with the Ensembl ID: **ENSG00000257198.6** has? (hint use **grep**)
+2) Count the number of transcripts per gene using **groupby** together with **count** (hint: genes are in column #9 and transcripts in column #10). How many transcripts the gene with the Ensembl ID: **ENSG00000257198.6** has? (hint use **grep**)
 
-3) Can you tell which are the Ensembl IDs for the transcripts of gene **ENSG00000257198.6**? (hint use **--collapse**) 
+3) Can you tell which are the Ensembl IDs for the transcripts of gene **ENSG00000257198.6**? (hint use **collapse**) 
 
 
 Overall, there are many ways of transforming data to analyze it. Using *datamash* it is possible to quickly process data and use it as input into for other programming languages performing more sophisticated analyses and/or visualization by directly plotting it :octocat:
