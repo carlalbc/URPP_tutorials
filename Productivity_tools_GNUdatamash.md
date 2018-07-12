@@ -40,7 +40,7 @@ See all the possible functions by writing in the command line:
 - man datamash (extended manual)
 
 
-## Examples  :octocat::speech_balloon:
+## Examples 
 
 
 Open the terminal and in the command-line print numbers from 1 to 10 using **_seq 10_**, then send the result into datamash using pipe (|) and sum the values from the first and only field, then calculate the mean. 
