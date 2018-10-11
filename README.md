@@ -28,4 +28,4 @@ We will show you how to improve your efficiency using _bioawk_, _GNU datamash_ a
 - **Section I**: [Genome Browsers](): A tour on several key genome browsers and customization track tips.
 - **Section II**: [Visualization with R](https://github.com/swyder) - Heatmaps and karyoplots.
 
-### III) **To be determined**. November 2018
+### III) **To be determined**. November 2018 
