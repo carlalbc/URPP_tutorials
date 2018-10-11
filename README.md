@@ -9,7 +9,7 @@ Welcome to URPP tutorials! :octocat:
 
 Here you will find the **UZH URPP Bioinformatics Program for the year 2018**.
 
-We already had a fantastic course of **tidyverse/dplyr** by Stefan Wyder at the beginning of June, please check his [github page](https://github.com/swyder/dplyr_tutorial) for more information. 
+We already had a fantastic course of **tidyverse/dplyr** by Stefan Wyder at the beginning of June, please check his [Github page](https://github.com/swyder/dplyr_tutorial) for more information. 
 
 *Next courses:*
 
@@ -26,5 +26,6 @@ We will show you how to improve your efficiency using _bioawk_, _GNU datamash_ a
 
 ### II) **Genome visualization**. October 2018 
 - **Section I**: [Genome Browsers](): A tour on several key genome browsers and customization track tips.
+- **Section II**: [Visualization with R](https://github.com/swyder) - Heatmaps and karyoplots.
 
-### III) **to be determined**. November 2018
+### III) **To be determined**. November 2018
