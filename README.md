@@ -13,7 +13,7 @@ We already had a fantastic course of **tidyverse/dplyr** by Stefan Wyder at the 
 
 *Next courses:*
 
-I) **Productivity tools**: July 2018 
+### I) **Productivity tools**: July 2018 
 
 A dynamic course where we will all share our day-to-day productivity tools. From a classic notebook to a mobile app, going through command-line tricks and programming work-arounds.
 
@@ -25,4 +25,4 @@ We will show you how to improve your efficiency using _bioawk_, _GNU datamash_ a
 
 
 
-II) **Genome visualization**. [Genome Browsers](): A tour on several key genome browsers and customization track tips.
+### II) **Genome visualization**. [Genome Browsers](): A tour on several key genome browsers and customization track tips.
