@@ -25,4 +25,4 @@ We will show you how to improve your efficiency using _bioawk_, _GNU datamash_ a
 
 
 
-II) **_To be determined_**. We are always open to suggestions!
+II) **Genome visualization**. [Genome Browsers](): A tour on several key genome browsers and customization track tips.
