@@ -24,5 +24,7 @@ We will show you how to improve your efficiency using _bioawk_, _GNU datamash_ a
 - **Section II**: [GNU Datamash](https://github.com/carlalbc/URPP_tutorials/blob/master/Productivity_tools_GNUdatamash.md): Command-line program to perform table modifications, calculations and basic stats using text files as an input.
 
 
+### II) **Genome visualization**. October 2018 
+- **Section I**: [Genome Browsers](): A tour on several key genome browsers and customization track tips.
 
-### II) **Genome visualization**. [Genome Browsers](): A tour on several key genome browsers and customization track tips.
+### III) **to be determined**. November 2018
