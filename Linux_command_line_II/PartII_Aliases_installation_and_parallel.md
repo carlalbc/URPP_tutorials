@@ -56,11 +56,9 @@ As a general rule, first type the command --in this case the new alias, then the
 - **Change the comma-separated file to a tab-separated file** by using the new aliases (**hint**: use subcomma)
 - **Evaluate the first 10 lines**. Remember you can use pipes (**hint:** use h)
 ---
-.
-.
-.
+
 :traffic_light:
-- Solution (try first on your own):
+- Solution (first try on your own):
 
 ```sh
 #We use the new alias arbitrarily called "subcomma"
@@ -85,11 +83,36 @@ alias py3='source activate py36'
 alias py2='source activate py26'
 ```
 
-# Installing software from source
+# Installing software 
 
-  - Import a HTML file and watch it magically convert to Markdown
-  - Drag and drop images (requires your Dropbox account be linked)
+###  - With root priviledges:
 
+
+```sh
+
+#Ubuntu, Debian, Mint
+$ sudo apt install app_name 
+$ sudo apt update
+$ sudo apt upgrade
+
+#Fedora, CentOS, Red Hat    
+$ sudo yum install app_name 
+$ yum update
+```
+
+### - Without *root* priviledges (from source)
+
+  - Go to the webpage and copy the download link
+  - Download source package/s (you can use wget, curl, save as)
+  - Unpack the files (you can use the **untar** alias!)
+  - Go inside the folder and check the README file.
+  - Build if necessary and use the binary files once built.
+  - Add the binaries to your PATH
+ 
+### :beginner: Exercise 3
+./configure --prefix=/home/user/.local; make; make install convention. It works for python modules either by pip install --user or python setup.py install --user
+
+### :beginner: Exercise 3. Install a 
 
 You can also:
   - Import and save files from GitHub, Dropbox, Google Drive and One Drive
