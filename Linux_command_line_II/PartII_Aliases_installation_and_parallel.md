@@ -229,19 +229,36 @@ Align multiple files with bwa:
 ```sh
 find ./ -name "*.fastq.gz"| parallel --dryrun bwa aln -f {/.}.sai dummy.fa {}
 ```
-
+Run samtools in all sam files and skip all tedious intermediates
+```sh
 ls *.sam | parallel "samtools view -b -S {} | samtools sort - {.}; samtools index {.}.bam"
+```
+Running your own script in parallel (--load 90 max load 90% on the computer):
+```sh
 
-### :beginner: Exercise 4. 
+$ ls SINGLE_END/*.fastq.gz | parallel -j20 --load 90 ./Run_kallisto_SingleEnd.sh 2>log.kallisto
+$ more Run_kallisto_SingleEnd.sh
 
-  - This [Biostar](https://www.biostars.org/p/63816/) thread is really good
- ```
+#!/bin/bash
+# Runs kallisto on all Fastq files in Single_End with arg $1
+# for use with GNU parallel
+    
+KALLISTO=~/APPL/KALLISTO/kallisto_linux-v0.42.1/kallisto
+INDEX_FILE=KALLISTO_OUT/Athaliana_longestTranscript.idx
+OUT_DIR=KALLISTO_OUT
+    
+FASTQ=$1
  
- ### :beginner: Exercise 4. 
+# Get sample name
+filename=${FASTQ%%.fastq.gz}
+filename=$(basename $filename)
 
-  
-  
-  
+# run kallisto quantification
+$KALLISTO quant -i $INDEX_FILE --single -l 180 $FASTQ -o TEMP_${filename}
+```
+This will the script Run_kallisto_Single using 20 CPUs on all FASTQ files of the SINGLE_END subdirectory. Error messages will be written to the file log.kallisto. (Taken from [Stefan Wyder](https://github.com/swyder/LINUX_SHELL_4))
+
+  - This [Biostar](https://www.biostars.org/p/63816/) thread is quite complete
 
 ### Resources
 
@@ -253,6 +270,7 @@ Some useful links for further reading; the internet is full of information.
 | Useful Oneliners including aliases | [https://github.com/stephenturner/oneliners] |
 | Official GNU Parallel Tutorial | [https://www.gnu.org/software/parallel/parallel_tutorial.html] |
 | More on GNU Parallel  | [https://davetang.org/muse/2013/11/18/using-gnu-parallel/] |
+| Even more on GNU Parallel  | [https://www.biostars.org/p/237678/] |
 
 ### Todos
 
