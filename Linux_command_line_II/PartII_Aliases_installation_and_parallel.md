@@ -210,14 +210,35 @@ $ ./configure && make && sudo make install
 ```
 ([More installation options here](http://git.savannah.gnu.org/cgit/parallel.git/tree/README))
 
-:beginner: Exercise 4. 
+### Examples:
 
+The input of parallel can be referred by using curly brackets **{}** . In the following example we can input all human chromosomes to parallel:
+```sh
+parallel echo chr{}.fa ::: {1..22} X Y M | head -5     #see the first five chromosomes
+```
 
+Run a blat for all chromosomes, you can use --dryrun to see the commands before running it to evaluate it:
+```sh
+parallel --dryrun blat chr{}.fa human/test.fa test_{}.psl ::: {1..22} X Y M | head -5
+```
+Run FASTQC in multiple files (10 in this case) simultaneously:
+```sh
+ls *.fq | parallel  -j 10 "fastqc {} --outdir ."
+```
+Align multiple files with bwa:
+```sh
+find ./ -name "*.fastq.gz"| parallel --dryrun bwa aln -f {/.}.sai dummy.fa {}
+```
 
+ls *.sam | parallel "samtools view -b -S {} | samtools sort - {.}; samtools index {.}.bam"
 
+### :beginner: Exercise 4. 
 
   - This [Biostar](https://www.biostars.org/p/63816/) thread is really good
-  
+ ```
+ 
+ ### :beginner: Exercise 4. 
+
   
   
   
