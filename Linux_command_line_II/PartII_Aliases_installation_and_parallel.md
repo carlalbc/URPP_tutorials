@@ -8,7 +8,7 @@
 
 Alias in computing, is a command in various command line interpreters (shells) such as Unix shells, AmigaDOS, 4DOS/4NT, KolibriOS and Windows PowerShell, which enables a replacement of a word by another string ([source](https://en.wikipedia.org/wiki/Alias_(command))).
 
-### Exercise 1.- Customize your working enviroment by adding aliases to your .bashrc
+###  :beginner: Exercise 1.- Customize your working enviroment by adding aliases to your .bashrc
 
 [.bashrc](https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work) is a [shell script](https://en.wikipedia.org/wiki/Shell_script) that [Bash](https://www.gnu.org/software/bash/) runs everytime a shell session is initialized.
 
