@@ -98,7 +98,7 @@ alias py2='source activate py26'
 
 # Installing software 
 
-###  With *root* priviledges:
+###  With *root* privileges:
 
 
 ```sh
@@ -113,7 +113,7 @@ $ sudo yum install app_name
 $ yum update
 ```
 
-### Without *root* priviledges (from source)
+### Without *root* privileges (from source)
 
   - Go to the webpage and copy the download link
   - Download source package/s (you can use wget, curl, save as)
