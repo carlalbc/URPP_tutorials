@@ -62,9 +62,22 @@ As a general rule, first type the command --in this case the new alias, then the
 
 ```sh
 #We use the new alias arbitrarily called "subcomma"
-subcomma iris.csv   
-subcomma iris.csv | h 
-subcomma iris.cvs > iris.tsv
+$ subcomma iris.csv                           #substitutes "," for "tabs"
+$ subcomma iris.csv | h                       #substitutes "," for "tabs" and shows the first 10 lines
+$ subcomma iris.csv | h | column -t           #same as above and prints the table nicely in the Terminal
+
+sepal_length  sepal_width  petal_length  petal_width  species
+5.1           3.5          1.4           0.2          setosa
+4.9           3.0          1.4           0.2          setosa
+4.7           3.2          1.3           0.2          setosa
+4.6           3.1          1.5           0.2          setosa
+5.0           3.6          1.4           0.2          setosa
+5.4           3.9          1.7           0.4          setosa
+4.6           3.4          1.4           0.3          setosa
+5.0           3.4          1.5           0.2          setosa
+4.4           2.9          1.4           0.2          setosa
+
+$ subcomma iris.cvs > iris.tsv        #ubstitutes "," for "tabs" and saves the file tab delimited 
 ```
 ---
 
