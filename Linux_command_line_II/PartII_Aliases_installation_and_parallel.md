@@ -129,12 +129,63 @@ $ ./configure --prefix=/home/user/.local; make; make install        #Some progra
 $ pip install --user or python setup.py install --user              #Installing Python modules
 ```
 
-### :beginner: Exercise 3. Download XXX and install it
+### :beginner: Exercise 3. Download bam-readcount and install it
 
 
+```sh
+$ git clone https://github.com/genome/bam-readcount.git     #Clone the repo
 
+$ cd ~/bam-readcount                  #work in your home folder
+$ cmake ~/bam-readcount               #inside the bam-recount folder
+$ make                                #inside the bam-recount folder
+
+$ echo 'export PATH=/home/YOUR_USERNAME/bam-readcount/bin:$PATH' >>~/.bashrc   #Add the PATH to your .bashrc, remember to change "YOUR_USERNAME for your pesonal user name"
+
+```
 You can also:
-  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
+  - Open your ~/.bashrc and add the following line directly there:
+```sh
+$ gedit ~/.bashrc
+export PATH="$PATH:/home/you/bam-readcount/" 
+$ source ~/.bashrc
+
+```
+And lastly you can also:
+
+```sh
+$ cp -R bam-readcount/bin/* ~/bin      #copy the binaries of the program to your bin folder
+```
+
+Try it! It should run without issues
+```sh
+$ bam-readcount
+Usage: bam-readcount [OPTIONS] <bam_file> [region]
+Generate metrics for bam_file at single nucleotide positions.
+Example: bam-readcount -f ref.fa some.bam
+
+Available options:
+  -h [ --help ]                         produce this message
+  -v [ --version ]                      output the version number
+  -q [ --min-mapping-quality ] arg (=0) minimum mapping quality of reads used 
+                                        for counting.
+  -b [ --min-base-quality ] arg (=0)    minimum base quality at a position to 
+                                        use the read for counting.
+  -d [ --max-count ] arg (=10000000)    max depth to avoid excessive memory 
+                                        usage.
+  -l [ --site-list ] arg                file containing a list of regions to 
+                                        report readcounts within.
+  -f [ --reference-fasta ] arg          reference sequence in the fasta format.
+  -D [ --print-individual-mapq ] arg    report the mapping qualities as a comma
+                                        separated list.
+  -p [ --per-library ]                  report results by library.
+  -w [ --max-warnings ] arg             maximum number of warnings of each type
+                                        to emit. -1 gives an unlimited number.
+  -i [ --insertion-centric ]            generate indel centric readcounts. 
+                                        Reads containing insertions will not be
+                                        included in per-base counts
+
+```
+
   - Drag and drop markdown and HTML files into Dillinger
   - Export documents as Markdown, HTML and PDF
 
