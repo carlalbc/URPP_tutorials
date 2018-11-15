@@ -77,7 +77,7 @@ sepal_length  sepal_width  petal_length  petal_width  species
 5.0           3.4          1.5           0.2          setosa
 4.4           2.9          1.4           0.2          setosa
 
-$ subcomma iris.cvs > iris.tsv        #ubstitutes "," for "tabs" and saves the file tab delimited 
+$ subcomma iris.cvs > iris.tsv               #substitutes "," for "tabs" and saves the file tab delimited 
 ```
 ---
 
