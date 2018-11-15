@@ -6,14 +6,16 @@
 
 # Alias (command)
 
-An **alias** in computing, is a command in various command line interpreters (shells) such as Unix shells, AmigaDOS, 4DOS/4NT, KolibriOS and Windows PowerShell, which enables a replacement of a word by another string ([source](https://en.wikipedia.org/wiki/Alias_(command))). You can customize your working environment by modifying your **.bashrc**, for example by adding aliases.  
+An **alias** in computing, is a command in various command line interpreters (shells) such as Unix shells, AmigaDOS, 4DOS/4NT, KolibriOS and Windows PowerShell, which enables a replacement of a word by another string ([source:Wikipedia](https://en.wikipedia.org/wiki/Alias_(command))). You can customize your working environment by modifying your **.bashrc**, for example by adding **aliases**.  
 
-[.bashrc](https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work) is a [shell script](https://en.wikipedia.org/wiki/Shell_script) that [Bash](https://www.gnu.org/software/bash/) runs everytime a shell session is initialized.
+# What is the .bashrc?
+
+[.bashrc](https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work) is a [shell script](https://en.wikipedia.org/wiki/Shell_script) that [Bash](https://www.gnu.org/software/bash/) runs everytime a shell session is initialized. We will learn how to modify it Today.
 
 ###  :beginner: Exercise 1.- Customize your working enviroment by adding aliases to your .bashrc
 
 
-For the purposes of Today's practical exercises, you can use [Gedit](https://wiki.gnome.org/Apps/Gedit), [Nano](https://www.nano-editor.org/), or any other editor of your choice, such as [Vim](https://www.vim.org/), [Emacs](https://www.gnu.org/software/emacs/), [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/), among others.
+For the purposes of **Today's practical exercises**, we will use [Gedit](https://wiki.gnome.org/Apps/Gedit), [Nano](https://www.nano-editor.org/). However you could use any other editor of your choice, such as [Vim](https://www.vim.org/), [Emacs](https://www.gnu.org/software/emacs/), [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/), among others.
 
 - Open your [.bashrc](https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work) file with the text editor of your choice by:
 
