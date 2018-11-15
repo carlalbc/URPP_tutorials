@@ -59,7 +59,7 @@ As a general rule, first type the command --in this case the new alias, then the
 .
 .
 .
-
+:traffic_light:
 - Solution (try first on your own):
 
 ```sh
