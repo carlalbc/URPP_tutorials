@@ -4,7 +4,6 @@
   - [GNU Parallel](https://www.gnu.org/software/parallel/parallel_tutorial.html=)
   - Cluster usage (qsub, qstat, etc)
 
-
 # Alias (command)
 
 Alias in computing, is a command in various command line interpreters (shells) such as Unix shells, AmigaDOS, 4DOS/4NT, KolibriOS and Windows PowerShell, which enables a replacement of a word by another string ([source](https://en.wikipedia.org/wiki/Alias_(command))).
@@ -51,15 +50,14 @@ As a general rule, first type the command --in this case the new alias, then the
 
 -  **NOTE:** You can save Github files (of moderate size) by doing **right click** with your mouse on the displayed raw data and then using **Save as**. The following link [iris.csv](https://raw.githubusercontent.com/carlalbc/URPP_tutorials/master/Linux_command_line_II/iris.csv) redirects you to the raw data file. 
 -  **Save** the previous file in your **current** folder (you can check by using **pwd**, by *default* you should be in the **home** folder).
-
-
-
-
 - **Change the comma-separated file to a tab-separated file** by using the new aliases (**hint**: use subcomma)
-- **Evaluate the first 10 lines**. Remember to use the new aliases (**hint:** use h)
+- **Evaluate the first 10 lines**. Remember you can use pipes (**hint:** use h)
 ---
+.
+.
+.
 
-- Solution:
+- Solution (try first on your own):
 
 ```sh
 #We use the new alias arbitrarily called "subcomma"
@@ -84,16 +82,7 @@ alias py3='source activate py36'
 alias py2='source activate py26'
 ```
 
-For production environments...
-
-```sh
-$ npm install --production
-$ NODE_ENV=production node app
-```
-
-
-
-# New Features!
+# Installing software from source
 
   - Import a HTML file and watch it magically convert to Markdown
   - Drag and drop images (requires your Dropbox account be linked)
