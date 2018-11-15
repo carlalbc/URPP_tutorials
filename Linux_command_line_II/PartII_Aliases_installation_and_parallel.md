@@ -15,7 +15,7 @@ An **alias** in computing, is a command in various command line interpreters (sh
 ###  :beginner: Exercise 1.- Customize your working enviroment by adding aliases to your .bashrc
 
 
-For the purposes of **Today's practical exercises**, we will use [Gedit](https://wiki.gnome.org/Apps/Gedit), [Nano](https://www.nano-editor.org/). However you could use any other editor of your choice, such as [Vim](https://www.vim.org/), [Emacs](https://www.gnu.org/software/emacs/), [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/), among others.
+For the purposes of **Today's practical exercises**, we will use [Gedit](https://wiki.gnome.org/Apps/Gedit). However you could use any other editor of your choice, such as [Vim](https://www.vim.org/), [Emacs](https://www.gnu.org/software/emacs/), [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/), among others.
 
 - Open your [.bashrc](https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work) file with the text editor of your choice by:
 
