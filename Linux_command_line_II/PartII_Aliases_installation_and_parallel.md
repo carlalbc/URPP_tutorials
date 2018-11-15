@@ -46,7 +46,7 @@ As a general rule, first type the command --in this case the new alias, then the
 [alias] yourfile | [another alias] > newfile    #you use more than one alias at once with pipes "|" 
 ```
 
-### Exercise 2. Change a comma-separated file to a tab-separated file by using your new alisases
+### :beginner: Exercise 2. Change a comma-separated file to a tab-separated file by using your new alisases
 
 -  **NOTE:** You can save Github files (of moderate size) by doing **right click** with your mouse on the displayed raw data and then using **Save as**. The following link [iris.csv](https://raw.githubusercontent.com/carlalbc/URPP_tutorials/master/Linux_command_line_II/iris.csv) redirects you to the raw data file. 
 -  **Save** the previous file in your **current** folder (you can check by using **pwd**, by *default* you should be in the **home** folder).
