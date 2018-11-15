@@ -185,6 +185,7 @@ Available options:
                                         included in per-base counts
 
 ```
+Relevant *xkcd comics* [universal install](https://xkcd.com/1654/) and [success...](https://xkcd.com/349/)
 
   - Drag and drop markdown and HTML files into Dillinger
   - Export documents as Markdown, HTML and PDF
