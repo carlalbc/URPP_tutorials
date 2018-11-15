@@ -186,6 +186,9 @@ Available options:
 ```
 Relevant *xkcd comics* [universal install](https://xkcd.com/1654/) and [success...](https://xkcd.com/349/)
 
+
+# GNU Parallel 
+
   - Drag and drop markdown and HTML files into Dillinger
   - Export documents as Markdown, HTML and PDF
 
@@ -237,7 +240,7 @@ $ npm install --production
 $ NODE_ENV=production node app
 ```
 
-### Plugins
+### Resources
 
 Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
 
