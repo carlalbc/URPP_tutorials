@@ -98,7 +98,7 @@ alias py2='source activate py26'
 
 # Installing software 
 
-###  With root priviledges:
+###  With *root* priviledges:
 
 
 ```sh
@@ -128,10 +128,12 @@ Generally, you can install in your server or computer by using:
 $ ./configure --prefix=/home/user/.local; make; make install        #Some program of interest
 $ pip install --user or python setup.py install --user              #Installing Python modules
 ```
+NOTE: You should always **read the documentation first**, more often than not you have to install dependencies, libraries or preexisting software for your program to work properly.
 
 ### :beginner: Exercise 3. Download bam-readcount and install it
 
-
+### [Bam-readcount](https://github.com/genome/bam-readcount) documentation
+- You could try following the directions from their documentation first. Else go straight ahead and follow the instructions below.
 ```sh
 $ git clone https://github.com/genome/bam-readcount.git     #Clone the repo
 
