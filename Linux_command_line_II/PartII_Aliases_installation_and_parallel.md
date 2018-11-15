@@ -191,9 +191,26 @@ Relevant *xkcd comics* [universal install](https://xkcd.com/1654/) and [success.
 
 # GNU Parallel 
 
-  - Drag and drop markdown and HTML files into Dillinger
-  - Export documents as Markdown, HTML and PDF
+GNU parallel is a shell tool for executing jobs in parallel using one or more computers. More info [here](https://www.gnu.org/software/parallel/)
 
+  - Install GNU parallel 
+  
+```sh
+$ wget https://ftpmirror.gnu.org/parallel/parallel-20181022.tar.bz2
+$ bzip2 -dc parallel-20181022.tar.bz2 | tar xvf -
+$ cd parallel-20181022
+$ ./configure && make && sudo make install
+```
+([More installation options here](http://git.savannah.gnu.org/cgit/parallel.git/tree/README))
+
+:beginner: Exercise 4. 
+
+
+  - This [Biostar](https://www.biostars.org/p/63816/) thread is really good
+  
+  
+  
+  
 Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site][df1]
 
 > The overriding design goal for Markdown's
@@ -244,13 +261,13 @@ $ NODE_ENV=production node app
 
 ### Resources
 
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
+Some useful links for further reading 
 
 | Plugin | README |
 | ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| Github | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
+| More on installation | [https://github.com/mr-c/misc/wiki/Linux-Home-Directory-Program-Installation][PlDb] |
+| Useful oneliners | [https://github.com/stephenturner/oneliners][PlGh] |
+| GNU Parallel Tutorial | [https://www.gnu.org/software/parallel/parallel_tutorial.html][PlGd] |
 | OneDrive | [plugins/onedrive/README.md][PlOd] |
 | Medium | [plugins/medium/README.md][PlMe] |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
