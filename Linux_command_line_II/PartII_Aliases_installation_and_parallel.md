@@ -140,7 +140,7 @@ $ cmake ~/bam-readcount               #inside the bam-recount folder
 $ make                                #inside the bam-recount folder
 
 $ echo 'export PATH=/home/YOUR_USERNAME/bam-readcount/bin:$PATH' >>~/.bashrc   #Add the PATH to your .bashrc, remember to change "YOUR_USERNAME for your pesonal user name"
-
+$ bam-readcount                       #run it
 ```
 You can also:
   - Open your ~/.bashrc and add the following line directly there:
