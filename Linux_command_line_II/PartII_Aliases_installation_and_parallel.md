@@ -1,6 +1,6 @@
 # Overview
   - Alias (command)
-  - Installing software from source (without *root* priviledge) 
+  - Installing software from source files (without *root* priviledge) 
   - [GNU Parallel](https://www.gnu.org/software/parallel/parallel_tutorial.html=)
   - Cluster usage (qsub, qstat, etc)
 
