@@ -145,10 +145,9 @@ $ echo 'export PATH=/home/YOUR_USERNAME/bam-readcount/bin:$PATH' >>~/.bashrc   #
 You can also:
   - Open your ~/.bashrc and add the following line directly there:
 ```sh
-$ gedit ~/.bashrc
-export PATH="$PATH:/home/you/bam-readcount/" 
-$ source ~/.bashrc
-
+$ gedit ~/.bashrc                                       #Open Gedit
+export PATH="$PATH:/home/you/bam-readcount/"            #Add this line with the path of the program, save and exit
+$ source ~/.bashrc                                      #Reload your .bashrc
 ```
 And lastly you can also:
 
