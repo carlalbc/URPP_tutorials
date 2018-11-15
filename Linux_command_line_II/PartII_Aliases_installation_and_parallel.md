@@ -98,7 +98,7 @@ alias py2='source activate py26'
 
 # Installing software 
 
-###  - With root priviledges:
+###  With root priviledges:
 
 
 ```sh
@@ -113,7 +113,7 @@ $ sudo yum install app_name
 $ yum update
 ```
 
-### - Without *root* priviledges (from source)
+### Without *root* priviledges (from source)
 
   - Go to the webpage and copy the download link
   - Download source package/s (you can use wget, curl, save as)
@@ -121,11 +121,17 @@ $ yum update
   - Go inside the folder and check the README file.
   - Build if necessary and use the binary files once built.
   - Add the binaries to your PATH
- 
-### :beginner: Exercise 3
-./configure --prefix=/home/user/.local; make; make install convention. It works for python modules either by pip install --user or python setup.py install --user
 
-### :beginner: Exercise 3. Install a 
+Generally, you can install in your server or computer by using:
+
+```sh
+$ ./configure --prefix=/home/user/.local; make; make install        #Some program of interest
+$ pip install --user or python setup.py install --user              #Installing Python modules
+```
+
+### :beginner: Exercise 3. Download XXX and install it
+
+
 
 You can also:
   - Import and save files from GitHub, Dropbox, Google Drive and One Drive
